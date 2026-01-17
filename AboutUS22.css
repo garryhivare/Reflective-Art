@@ -1,0 +1,156 @@
+@keyframes appear {
+  from{
+     opacity: 0;
+     scale: 0.5;
+  }
+  to{
+     opacity: 1;
+     scale: 1;
+
+  }
+}
+.img-fluid{
+
+  animation: appear 0.3s ;
+}
+h2
+{
+  animation: appear 0.7s ;
+}
+
+
+.login-button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .nav-item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar {
+    background-color: white;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50px;
+  }
+  .navbar-brand{
+    font-weight: 900;
+    margin-right: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 3px;
+  
+  }
+  .about
+  {
+    margin-top: 100px;
+    width: 100%;
+
+  }
+  .about .img-fluid
+  {
+    width: 1000%;
+  }
+  
+  .dropdown-menu {
+    display: none; /* Hide------------------ dropdown  */
+    animation: fadeIn 0.3s ease forwards; /* Animation---------keyframes */
+  }
+  
+  /* dropdown hover */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* CSS--------------------------------------------------------------------fade-in effect */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  
+  }
+ 
+  
+/* ........................................................Footer start................................................ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Bellota Text', cursive;
+}
+footer {
+	background: #101010;
+	padding: 86px 0;
+    border-top-left-radius: 125px   ;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p {
+	color: #fff;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: #fff;
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+
+/* ...........................................................................Footer End....................... */
+
+  

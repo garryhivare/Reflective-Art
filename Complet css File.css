@@ -1,0 +1,357 @@
+s
+.login-button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .nav-item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar {
+    background-color: white;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50px;
+  }
+  .navbar-brand{
+    font-weight: 900;
+    margin-right: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 3px;
+  
+  }
+
+.slide .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 100;
+    text-align: center;
+    padding-top: 19%;
+}
+
+
+.card{
+    flex-direction: row;
+    margin-left: 100px;
+   margin-top: 50px;
+
+}
+.card-body
+{
+    padding: 5;
+    
+}
+.card img{
+    max-width: 20em;
+    height: 100%;
+
+}
+
+
+.text h1
+{
+    color: white;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    text-shadow: 6px 4px  black;
+   
+    animation: appear 0.3s ;
+}
+
+@keyframes appear {
+   from{
+      opacity: 0;
+      scale: 0.5;
+   }
+   to{
+      opacity: 1;
+      scale: 1;
+ 
+   }
+ }
+ 
+
+
+.overlay .text1 p
+{
+    color: white;
+    font-size: 1.5vw;
+    font-family:'Times New Roman', Times, serif;
+
+    padding-top: 100px;
+}
+    p {
+    text-shadow: 2px 2px black;
+    animation: appear 1s ;
+}
+
+   
+
+
+.dropdown-menu {
+  display: none; /* Hide------------------ dropdown  */
+  animation: fadeIn 0.3s ease forwards; /* Animation---------keyframes */
+}
+
+/* dropdown hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* CSS--------------------------------------------------------------------fade-in effect */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+
+}
+
+
+.mtext
+{
+    font-size: 40px;
+}
+.mtext2
+{
+    font-size: 40px;
+    padding-bottom: 30px;
+   
+  
+
+}
+
+
+
+/*  ------------------------------------------------Footer First--------------------------------------------------------------- -->*/
+
+
+
+
+footer {
+	background: #101010;
+	padding: 86px 0;
+    border-top-left-radius: 125px   ;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p {
+	color: #fff;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: #fff;
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+
+
+/*  ------------------------------------------------Footer End--------------------------------------------------------------- -->*/
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); */
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Bellota Text', cursive;
+}
+body
+{
+   /* display: flex; */
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   width: 100%;
+   
+}
+
+
+.container
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 80px;
+}
+.container .card
+{
+   width: 330px;
+   height: 416px;
+   padding: 60px 18px;
+   margin: 20px;
+   background:white;
+   box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+               -0.5em -0.5em 1em #ffffff;
+   border-radius: 20px;
+   
+}
+.container .card .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-right:50px;
+   
+}
+.container .card .content .imgBx
+{
+   width: 300px;
+   height: 180px;
+   border-radius: 50%;
+   clip-path: circle();
+   position: relative;
+   margin-bottom: 10px;
+   overflow: hidden;
+ 
+}
+.container .card .content .imgBx img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 80%;
+   padding-left: 70px;
+   height: 100%;
+   
+   object-fit: cover;
+}
+.container .card .content .contentBx h4
+{
+   color: #36187d;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   padding-right: 1px;
+   padding-top: 10px;
+   letter-spacing: 1px;
+}
+.container .card .content .contentBx h5
+{
+   color: #6c758f;
+   font-size: 1.2rem;
+   font-weight: bold;
+   padding-right: 1px;
+   
+     
+   text-align: center;
+}
+.container .card .content .sci
+{
+   margin-top: 20px;
+}
+.container .card .content .sci a
+{
+   text-decoration: none;
+   color: #6c758f;
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+}
+.container .card .content .sci a:hover
+{
+   color: #0196e3;
+}
+
+@keyframes appear {
+   from{
+      opacity: 0;
+      scale: 0.5;
+   }
+   to{
+      opacity: 1;
+      scale: 1;
+
+   }
+}
+.view{
+
+   animation: appear linear ;
+   animation-timeline: view();
+   animation-range: entry 0;
+
+
+  
+}
+.li{
+   padding-left: 70px;
+   font-size: small;
+   margin-top: 5px;
+}
+.about{
+   padding-left: 70px;
+   font-size: small;
+   margin-top: 5px;
+
+}
+.info{
+   
+   padding-left: 70px;
+   font-size: small;
+   margin-top: 5px;
+}
+

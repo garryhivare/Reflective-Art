@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CollectionPaintings.css" />
+    <title>Paintings</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  </head>
+  <body>
+    
+
+    <!-- Navbar---------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand me-1" href="#">
+            <img src="./RA1.jpg" alt="Logo" width="50" height="50">
+          </a>
+       
+        <a class="navbar-brand " href="#">ReflectiveArt</a>
+       
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 me-3">
+              <li class="nav-item"> 
+                <a class="nav-link active mx-lg-2" aria-current="page" href="./FinalProject.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="AboutUS.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Collections
+                </a>
+                <ul class="dropdown-menu">
+                </li>
+                <li><a class="dropdown-item" href="CollectionPaintings.html">Paintings</a></li>
+              </li>
+              <li><a class="dropdown-item" href="CollectionPhotography.html">Photography</a></li>
+            </li>
+            <li><a class="dropdown-item" href="CollectionCollage.html">Collage</a></li>
+          </li>
+          <li><a class="dropdown-item" href="CollectionScuplture.html">Sculpture</a></li>
+  
+                </ul>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Artist
+                  </a>
+                  <ul class="dropdown-menu">
+                      
+                    </li> 
+                   <li><a class="dropdown-item" href="ArtArtist5.1.html" target="_blank">Artist</a></li>
+                  </li>
+                   <li><a class="dropdown-item" href="photographt 5.1.html" >photographer</a></li>
+                </li>
+                <li><a class="dropdown-item" href="sculpture 5.1.html"> Sculpture</a></li>
+                  </li>
+            </ul>
+           
+          </div>
+        </div>
+        <a href="./Login.html" class="login-button ">Login</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+<!-- Navbar-------------------------------------------------------- -->
+  
+<!-- -Paintings Slider -------------------------------------------------------------- -->
+<div class="container-fluid ">
+<div id="slide" class="carousel slide" data-bs-ride="carousel">
+         
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="horizontalback.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="horizontal2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="horizontalback3.jpg" class="d-block w-100" alt="...">
+    </div>
+    
+  </div>
+   </div>
+    <section class="section__container collection__container">
+      <img src="newcollectionpaiting.jpg"alt="collection" /> 
+     
+      <div class="collection__content">
+        <h2 class="section__title">New Collection</h2>
+        <p>#35 ITEMS</p>
+        <h4>Available on Store</h4>
+       
+      </div>
+    </section>
+
+    <section class="section__container sale__container">
+      <h2 class="section__title">On Sale</h2>
+      <div class="sale__grid">
+        <div class="sale__card">
+          <img src="waterdiscount.jpg" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">Water Paint Art</p>
+            <h4 class="sale__title">sale <span>40%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="sale__card">
+          <img src="sketchdiscount.jpg" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">Sketches</p>
+            <h4 class="sale__title">sale <span>25%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="sale__card">
+          <img src="oildiscount.jpg" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">Oil Paintings</p>
+            <h4 class="sale__title">sale <span>20%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container musthave__container">
+      <h2 class="section__title">Water Paint Art</h2>
+     
+
+      <div class="musthave__grid">
+        <div class="musthave__card">
+          <img src="watercolor1.jpg" alt="must have" />
+          <h4>WaterFall painting </h4>
+          
+          <p><del>1300₹</del> 1200₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <!-- <button type="button" class="btn btn-warning"  >Buy</button> -->
+<button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        
+        </div>
+        <div class="musthave__card">
+          <img src="watercolor2.jpg" alt="must have" />
+          <h4>Starry Sky</h4>
+     
+          <p><del>1400 ₹</del> 1300 ₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+   
+        </div>
+        <div class="musthave__card">
+          <img src="watercolor3.jpg" alt="must have" />
+          <h4>Sponging</h4>
+          
+          <p><del>1100 ₹</del> 1000 ₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="watercolor4.jpg" alt="must have" />
+          <h4>Starry sky</h4>
+          
+          <p><del>900₹</del> 800₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+         
+        </div>
+        <div class="musthave__card">
+          <img src="watercolor5.jpg" alt="must have" />
+          <h4>Salt Art</h4>
+          
+          <p><del>1250₹</del> 1150₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="watercolor6.jpg" alt="must have" />
+          <h4>Blomming</h4>
+          
+          <p><del>1600₹</del>1500₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="watercolor7.jpg" alt="must have" />
+          <h4>Wet on wet watercolour </h4>
+         
+          <p><del>1600₹</del>1450₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="watercolor8.jpg" alt="must have" />
+          <h4>Acrylic</h4>
+     
+          <p><del>950₹</del>850₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+       
+    </section>
+
+    <section class="section__container musthave__container">
+      <h2 class="section__title">Sketches</h2>
+     
+
+      <div class="musthave__grid">
+        <div class="musthave__card">
+          <img src="sketch1.jpg" alt="must have" />
+          <h4>Bird pencil sketch</h4>
+
+          <p><del>1100₹</del> 750₹</p>
+          
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+         
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="sketch2.jpg" alt="must have" />
+          <h4>Stippling</h4>
+       
+          <p><del>1200₹</del> 1000₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="sketch3.jpeg" alt="must have" />
+          <h4>Pencil Sketch</h4>
+          
+          <p><del>1100₹</del> 900₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="sketch4.jpeg" alt="must have" />
+          <h4>line Drawing</h4>
+         
+          <p><del>1200₹</del> 1100₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="sketch5jpeg.jpeg" alt="must have" />
+          <h4>Tattoo Drawing</h4>
+          
+          <p><del>1500₹</del> 1300₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="sketch6.jpeg" alt="must have" />
+          <h4>Carton Drawing</h4>
+         
+          <p><del>1450₹</del> 1350₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="sketch7.jpg" alt="must have" />
+          <h4>Carton Drawing</h4>
+    
+          <p><del>1250₹</del> 1000₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+        <div class="musthave__card">
+          <img src="sketch8.jpg" alt="must have" />
+          <h4>Doodling</h4>
+       
+          <p><del>1200₹</del> 1000₹</p>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+        </div>
+       
+    </section>
+    
+
+
+    <section class="section__container musthave__container">
+      <h2 class="section__title">Oil Paintings</h2>
+     
+
+      <div class="musthave__grid">
+        <div class="musthave__card">
+          <img src="oilpaste1.jpg" alt="must have" />
+          <h4>Gesture Drawing</h4>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+          <p><del>1200₹</del>1000₹</p>
+        </div>
+        <div class="musthave__card">
+          <img src="oilpaste2.jpg" alt="must have" />
+          <h4>Photorealism</h4>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+          <p><del>1400₹</del> 1300₹</p>
+        </div>
+        <div class="musthave__card">
+          <img src="oilpaste3.jpg" alt="must have" />
+          <h4>Pointillism</h4>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+          <p><del>1300₹</del> 1200₹</p>
+        </div>
+        <div class="musthave__card">
+          <img src="oilpaste4.jpg" alt="must have" />
+          <h4>Scratchboard Drawing</h4>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+          <p><del>1500₹</del> 1350₹</p>
+        </div>
+        <div class="musthave__card">
+          <img src="oilpaste5.jpg" alt="must have" />
+          <h4>Silhouette Drawing</h4>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+          <p><del>1350₹</del> 1250₹</p>
+        </div>
+        <div class="musthave__card">
+          <img src="oilpaste6.webp" alt="must have" />
+          <h4>Canvas</h4>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+          <p><del>1400₹</del> 1200₹</p>
+        </div>
+        <div class="musthave__card">
+          <img src="oilpaste7.jpg" alt="must have" />
+          <h4>Pointillism</h4>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+          <p><del>1250₹</del> 1150₹</p>
+        </div>
+        <div class="musthave__card">
+          <img src="oilpaste8.webp" alt="must have" />
+          <h4>Silhouette Drawing</h4>
+          <button type="button" class="btn btn-warning" onclick="window.location.href='Loginpage.html';">Buy</button>
+          <button type="button" class="btn btn btn-outline-dark btn-sm">Add to cart</button>
+          <p><del>1350₹</del> 1250₹</p>
+        </div>
+       
+    </section>
+    
+
+<!-- ---------------------------------------Footer Start--------------------------------------------------------------- -->
+
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                      <img src="img/logo.png" alt="">
+                  <p>Begin the process of creafting your art gallery website by downloading mobities and oyping for a website virtual art gallery proceded.</p>
+                  <h3>Reflective_Art</h3>
+                  <div class="card-area">
+                          <i class="fa fa-cc-visa"></i>
+                          <i class="fa fa-credit-card"></i>
+                          <i class="fa fa-cc-mastercard"></i>
+                          <i class="fa fa-cc-paypal"></i>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                      <h2>COMPANY</h2>
+                  <ul>
+                      <li><a href="#">Terms</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Privacy policy</a></li>
+                      <li><a href="#">Our Services</a></li>
+                      <li><a href="#">Licenses</a></li>
+                      <li><a href="#">Cookie Setting</a></li>
+                  </ul>
+                  </div>                    
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                      <h2>OUR COMMUNITY</h2>
+                  <ul>
+                      <li><a href="#">Community</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Formus</a></li>
+                      <li><a href="#">Careers</a></li>
+                      <li><a href="#">Order Status</a></li>
+                  </ul>
+                  </div>                    
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                      <h2>GET HELP</h2>
+                      <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Market API</a></li>
+                        <li><a href="#">Payment option</a></li>
+                      </ul>
+    
+                      <div class="input-group mb-3">
+                          <input type="text" class="form-control" placeholder="Search Art" aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                          <span class="input-group-text" id="basic-addon2"><i class="fa fa-long-arrow-right"></i></span>
+                      </div>
+                      <h2>Follow us on</h2>
+                      <p class="socials">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                          <a href="#"><i class="fab fa-pinterest"></i></a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+    <!-- ---------------------------------------Footer End--------------------------------------------------------------- -->
+
+    
+    
+
+    
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
